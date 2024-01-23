@@ -1,0 +1,84 @@
+:root{
+    --text-color: white;
+    --padding:1rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite
+}
+
+header{
+    height: 100vh;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: saturate(0);
+}
+
+header:hover{
+    filter: saturate(1);
+}
+
+main{
+    background-color:dimgrey;
+    color: var(--text-color);
+    padding: var(--padding)
+}
+.section-title{
+    text-align: center;
+}
+
+.card{
+    width: 25rem;
+    background-color: bisque;
+    padding: var(--padding);
+    margin: 1rem;
+    color: black;
+    box-shadow: 0.1rem 0.2rem rgba(34, 6, 78, 34);
+    float: left;
+}
+.card-title{}
+.card-body{}
+footer{
+    background-color: darkslategrey;
+    color: var(--text-color)
+    padding:var(var(--padding))
+}
+
+.parent{
+    background-color: aquamarine;
+    height: 10rem;
+}
+.child{
+    background-color: blueviolet;
+    width: 20rem;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+    width:100%;
+
+    .tutorials{
+        height: 80vh;
+        background-color: brown;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .tutorial{
+        background-color: burlywood;
+        height: 20vh;
+        width: 25%;
+    }
+
+

@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+h1{
+    background-color: brown;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    border: 10px  dotted gold;
+
+}
+h2{
+    background-color: blueviolet;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    border: 10px solid gold;
+
+}
+
+h3,h4{
+    background-color: blue;
+    display: inline;
+}
+a {
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid violet;
+    margin: 10px;
+}
+#para1{
+    background-color: aqua;
+    width: 500px;
+}
+#para2{
+    background-color: blueviolet;
+    max-width:500px ;
+}
+img{
+    opacity: 0.5;
+}
+img :hover{
+    opacity:1;
+}
+div{
+    width: 400px;
+    height: 100px;
+    background-color: aquamarine;
+    overflow: scroll;
+}

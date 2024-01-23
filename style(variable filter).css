@@ -1,0 +1,39 @@
+:root{
+    --text-color: white;
+    --padding:1rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite
+}
+
+header{
+    height: 100vh;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: saturate(0);
+}
+
+header:hover{
+    filter: saturate(1);
+}
+
+main{
+    background-color:dimgrey;
+    color: var(--text-color);
+    padding: var(--padding)
+    
+
+
+}
+footer{
+    background-color: darkslategrey;
+    color: var(--text-color)
+    padding:var(var(--padding))
+}

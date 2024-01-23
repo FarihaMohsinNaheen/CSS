@@ -1,0 +1,14 @@
+p{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(2,54,87);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1rem 2rem goldenrod;
+}
+.icon {
+    font-size: 7rem;
+    color: darkblue;
+}

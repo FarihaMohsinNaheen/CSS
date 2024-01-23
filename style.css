@@ -1,0 +1,14 @@
+h1{
+    font-size: 64px;
+
+    color:darkorchid;
+}
+p{
+    color:chocolate
+}
+ ul li a{
+    color: blue;
+}
+*{
+    background-color: darkseagreen;
+}
